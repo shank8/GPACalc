@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <Grid Background="#228B22" >
-        <TextBlock HorizontalAlignment="Center" Margin="0 70 0 0" TextWrapping="Wrap" Text="GPA Calculator" VerticalAlignment="Top" Width="250" FontSize="35"  FontFamily="Comic Sans MS" />
+        <TextBlock x:Name="titleTxtBlk"  HorizontalAlignment="Center" Margin="0 70 0 0" TextWrapping="Wrap" Text="GPA Calculator" VerticalAlignment="Top" Width="250" FontSize="35"  FontFamily="Comic Sans MS" />
         <TextBlock HorizontalAlignment="Left" Margin="534,233,0,0" TextWrapping="Wrap" Text="Class 1" VerticalAlignment="Top" Width="59" FontSize="18" FontFamily="Comic Sans MS" Tapped="TextBlock_Tapped_1"/>
         <TextBox x:Name="class1CreditsTxtBox" HorizontalAlignment="Left" Margin="643,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" InputScope="Number"/>
         <TextBox x:Name="class1GradeTxtBox" IsTabStop="True" HorizontalAlignment="Left" Margin="753,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" InputScope="AlphanumericFullWidth"/>

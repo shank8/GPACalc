@@ -71,8 +71,8 @@ namespace GPA_Calculator
         #region Calculate button click
         private void Calculate_Btn_Click(object sender, RoutedEventArgs e)
         {
-           
-
+            titleTxtBlk.Visibility = Visibility.Collapsed; 
+            
             
             #region Declare, retrieve and validate input for credits for classes 1-6
             int class1Credits;
